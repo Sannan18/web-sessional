@@ -44,3 +44,108 @@
     transition: 0.3s;
     text-decoration: none;
 }
+
+nav{
+    border-top: 3px solid orange;
+    padding: 1em 3em;
+    font-size: 13px;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: #25525E;
+
+}
+.dropbtn {
+    padding: 16px 20px;
+}
+
+.dropdown, .dropdown2{
+    position: relative;
+    display: inline-block;
+    text-align: left;
+    transition: 0.3s;
+}
+.dropdown2{
+    width: 100%;
+}
+
+.dropdown-content, .dropdown2-content{
+    margin-top: 14px;
+    display: none;
+    height: 0px;
+    position: absolute;
+    background-color: #0e737f;
+    min-width: 220px;
+    transition: 0.3s;
+    color: white
+}
+.dropdown2-content{
+    margin-top: -42px;
+}
+  
+.dropdown-content a, .dropdown2-content a{
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block; 
+    height:fit-content!important;
+    color: white;
+    transition: 0.3s;
+    text-transform: initial;
+    border-bottom: 1px solid grey;
+    background-color: #0e737f;
+}
+  
+.dropdown-content a:hover, .dropdown2-content a:hover {
+    color:black;
+    transition: 0.3s;
+}
+  
+.dropdown:hover .dropdown-content, .dropdown2:hover .dropdown2-content {
+    display: block;
+    height:fit-content!important;
+    transition: 0.3s;
+
+}
+.dropdown:hover{
+    color: black;
+    transition: 0.3s;
+}
+.dropdown2-content{
+    margin-left: 220px;
+}
+.flex-container{
+        display: flex;
+        background-color: #f1f1f1;
+      }
+      
+.flex-container .item1 {
+    background-color: #25525E;
+    color: white;
+    width: 20%;
+    margin: 10px;
+    display: inline-block;
+    font-size: 1em;
+    padding: 20px;
+    line-height: 2em;
+}
+
+.flex-container .item2 {
+    width: 70%;
+    margin: 10px;
+    line-height: 2em;
+    display: inline-block;
+}
+.flex-container .item2-1 {
+    width: 33.33%;
+    margin: 10px;
+    line-height: 1em;
+    display: inline-block;
+}
+.book{
+    width: 75px;
+    height: 100px;
+}
+
+.blue{
+    color: #0e737f;
+}
